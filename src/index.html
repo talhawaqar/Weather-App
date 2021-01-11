@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-light text-light">
+      <h1 class="title">Weather App</h1>
+    </nav>
+  </header>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-3 left-bar">
+        <p class="div-title">List of Projects</p>
+        <div class="createbtn">
+          <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#projectModal">
+            Create New Project
+          </button>
+        </div>
+        <div class="todo">
+          <ul id="projects-ul">
+          </ul>
+        </div>
+
+      </div>
+      <div class="col-12 col-md-9 right-bar">
+        <p class="div-title">Your To-do's</p>
+        <div class="createbtn" id="createTaskDiv">
+          <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#taskModal">
+            Create New Task
+          </button>
+        </div>
+        <ul class="tododisplay" id="tododisplay">
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <footer  class="displaynone">
+    <div class="flexfooter">
+      <p>
+        <small>Copyright &copy; All rights reserved - by Talha</small>
+      </p>
+      <ul class="">
+         <li>
+           <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram "></i>
+             <i class="fab fa-tumblr "></i>
+             <i class="fab fa-linkedin-in "></i>
+         </li>
+      </ul> 
+    </div>                
+  </footer>
+</body>
+</html>
