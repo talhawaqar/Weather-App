@@ -1,15 +1,7 @@
 const Htmlwebpackplugin = require('html-webpack-plugin');
 const Minicss = require('mini-css-extract-plugin');
-const path = require('path');
-const webpack = require('webpack');
 
 module.exports = {
-  mode: 'production',
-  entry: path.resolve(__dirname, 'src/index.js'),
-  output: {
-    filename: 'main.js',
-    path: path.resolve(__dirname, 'dist'),
-  },
   module: {
     rules: [
       {
@@ -18,6 +10,7 @@ module.exports = {
           'style-loader',
           'css-loader',
           'sass-loader',
+
         ],
       },
       {
@@ -46,7 +39,6 @@ module.exports = {
         ],
       },
     ],
-
   },
   plugins: [
     new Htmlwebpackplugin({
@@ -56,10 +48,6 @@ module.exports = {
     new Minicss({
       filename: '[name].css',
       chunkFilename: '[id].css',
-    }),
-    new webpack.ProvidePlugin({
-      $: 'jquery',
-      jQuery: 'jquery',
     }),
   ],
 };
