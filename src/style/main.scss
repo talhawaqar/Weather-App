@@ -1,4 +1,4 @@
-@import 'bootstrap';
+@import "bootstrap";
 
 html {
   height: 100%;
@@ -76,4 +76,8 @@ footer p {
 .flexfooter {
   display: flex;
   justify-content: center;
+}
+
+.card {
+  background-color: rgb(77, 75, 75) !important;
 }

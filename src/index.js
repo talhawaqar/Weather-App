@@ -1,6 +1,10 @@
 import 'bootstrap';
 import './style/main.scss';
-import { weatherInfo } from './api-requests';
+import {displayWeather} from './dom'
 
-const c = weatherInfo('Lahore');
-console.log(c);
+const submitButton = document.getElementById('btnSubmit');
+const cityTxt = document.getElementById('citytxt');
+
+submitButton.addEventListener('click', ()=>{
+  displayWeather(cityTxt.value);
+});
