@@ -3,6 +3,11 @@ let widgetDiv = document.getElementById('weather-info');
  
 const displayWeather = async (city) => {
   let weather = await weatherInfo(city);
+  console.log(weather);
+  if (weather.message == "city not found" ) {
+    widgetDiv.innerHTML = `<h5>City not Found</h5>`;
+    return;  
+  }
   widgetDiv.innerHTML = `
     <div class="card" style="width: 18rem;">
       <img src="https://www.countryflags.io/${weather.sys.country}/flat/64.png" class="card-img-top" style="width:64px; display:inline-block; margin:auto" alt="">
