@@ -2,13 +2,9 @@
 
 This project is a weather forcast site build using javascript. It fetches weather info from www.openweathermap.org api and displayed it on app.
 
-## Live-Demo
-
-[Check-Weather]()
-
 ## Screen-shots:
 
-<img src="assets/images/Screenshot.png">
+<img src="./Screenshot.png">
 
 ## Build-With
 
