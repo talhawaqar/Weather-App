@@ -12,6 +12,4 @@ const weatherInfo = async (city) => {
   }
 };
 
-export {
-  weatherInfo,
-};
+export default weatherInfo;

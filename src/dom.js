@@ -1,4 +1,4 @@
-import { weatherInfo } from './api-requests';
+import weatherInfo from './api-requests';
 
 const widgetDiv = document.getElementById('weather-info');
 
@@ -33,6 +33,4 @@ const displayWeather = async (city, centigradeUnit) => {
     </div>`;
 };
 
-export {
-  displayWeather,
-};
+export default displayWeather;

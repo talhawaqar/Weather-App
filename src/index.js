@@ -1,6 +1,6 @@
 import 'bootstrap';
 import './style/main.scss';
-import { displayWeather } from './dom';
+import displayWeather from './dom';
 
 const submitButton = document.getElementById('btnSubmit');
 const cityTxt = document.getElementById('citytxt');
