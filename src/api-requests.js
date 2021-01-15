@@ -13,5 +13,5 @@ const weatherInfo = async (city) => {
 };
 
 export {
-  weatherInfo
+  weatherInfo,
 };
