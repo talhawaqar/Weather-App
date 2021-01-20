@@ -7,7 +7,6 @@ const displayWeather = async (city, centigradeUnit) => {
   let unit = '';
   let temperature = 0;
   let feelLike = 0;
-  // console.log(weather.weather[0]);
   if (weather.message === 'city not found') {
     widgetDiv.innerHTML = '<h5>City not Found</h5>';
     document.getElementById('toggleUnit').style.visibility = 'hidden';
