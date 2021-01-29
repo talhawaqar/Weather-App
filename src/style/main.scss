@@ -1,0 +1,78 @@
+@import "bootstrap";
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  padding-bottom: 6rem;
+  min-height: 100%;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  background-color: rgb(77, 75, 75);
+}
+
+h2,
+h3 {
+  margin: 20px;
+  text-align: center;
+  color: bisque;
+}
+
+.navbar-light {
+  background-color: rgb(44, 52, 78) !important;
+}
+
+.container {
+  margin-top: 20px;
+  width: 400px;
+  padding: 20px;
+  background-color: gray !important;
+  color: #fff;
+  border: 1px dotted brown;
+  border-radius: 10px;
+}
+
+footer li {
+  list-style: none;
+}
+
+.btn-danger {
+  background-color: brown;
+}
+
+footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgb(49, 49, 49);
+  color: #fff;
+}
+
+.toggleUnit {
+  visibility: hidden;
+}
+
+footer p {
+  margin-top: 15px;
+}
+
+.flexfooter {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  background-color: gray !important;
+  border: 0;
+}
