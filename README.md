@@ -33,10 +33,10 @@ To get this project up and running locally, "npm install" is needed to be run in
 
 👤 **Muhammad Talha Waqar**
 
-- Github: [@LamiaSristy](https://github.com/talhawaqar)
-- Linkedin: [@LamiaSristy](https://www.linkedin.com/in/talhawaqar/)
+- Github: [@TalhaWaqar](https://github.com/talhawaqar)
+- Linkedin: [@TalhaWaqar](https://www.linkedin.com/in/talhawaqar/)
 - E-mail: <a href="mailto:talhawaqar007@gmail.com?subject=Hello Talha!">Email</a>
-- Twitter: [@LamiaSristy](https://twitter.com/MuhammadTalhaW4)
+- Twitter: [@TalhaWaqar](https://twitter.com/MuhammadTalhaW4)
 
 ## Show your support
 
