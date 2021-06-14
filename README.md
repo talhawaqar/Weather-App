@@ -6,6 +6,10 @@ This project is a weather forcast site build using javascript. It fetches weathe
 
 <img src="./Screenshot.png">
 
+## Live Demo
+
+[Live Demo Link](https://rawcdn.githack.com/talhawaqar/Weather-App/054344312795249ad81f25ce9ece91dbe05c4ff2/dist/index.html)
+
 ## Build-With
 
 - HTML5
